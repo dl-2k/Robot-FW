@@ -21,11 +21,11 @@ Open DemoQA Website
 
 *** Keywords ***
 LoginToApplication
-    Input Text    id=userName    TrungLe
-    Input Text    id=password    Trung1999@
+    Input Text    id=userName    Datle
+    Input Text    id=password    Datle
     Click Element    id=login
     Title Should Be    DEMOQA
     Wait Until Element Is Visible    id=userName-value    timeout=10s
-    Element Text Should Be    id=userName-value    TrungLe
+    Element Text Should Be    id=userName-value    Datle
 
 

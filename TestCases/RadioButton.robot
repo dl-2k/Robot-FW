@@ -14,7 +14,8 @@ RedioButtonTest
     [Tags]    smoke
     Open Browser    ${URL}    ${BROWSER}
     Maximize Browser Window
-    Wait Until Element Is Visible    id=yesRadio    timeout=10s
+    #Wait Until Page Contains Element    id=yesRadio    timeout=10s
+    Wait Until Element Is Visible    id=yesRadio    timeout=20s
     Click Element     id=yesRadio
     Element Should Be Visible    css=.text-success
     Element Text Should Be    css=.text-success    Yes
