@@ -22,4 +22,4 @@ LoginToApplication
     Click Element    id=login
     Title Should Be    DEMOQA
     Wait Until Element Is Visible    id=userName-value    timeout=10s
-    Element Text Should Be    id=userName-value    TrungLe
+    Element Text Should Be    id=userName-value    DatLe
